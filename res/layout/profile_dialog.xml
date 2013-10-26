@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Holo.Dialog" >
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@android:style/Theme.Holo.Dialog" >
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="height:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/height_ft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="ft"
+            android:inputType="number" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/height_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="in"
+            android:inputType="number" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@android:style/Theme.Holo.Dialog" >
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="weight:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/weight_lbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="lbs"
+            android:inputType="number" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@android:style/Theme.Holo.Dialog" >
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="age:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/age_yrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="yrs"
+            android:inputType="number" >
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:checked="true"
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:text="female" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </Button>
+
+</LinearLayout>

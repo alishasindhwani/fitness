@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:padding="10dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/duration_img"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_clock" />
+
+       <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/duration_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="DURATION:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/duration_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/distance_img"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_distance" />
+
+          <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/distance_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="DISTANCE:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/distance_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </TableRow>
+	 <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+          <ImageView
+            android:id="@+id/avgspeed_img"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_avgspeed" />
+
+          <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/avgspeed_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="AVG SPEED:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/avgspeed_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+          <ImageView
+            android:id="@+id/pace_img"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_pace" />
+
+          <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/pace_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="PACE:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/pace_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/maxspeed_img"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_maxspeed" />
+
+       <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/maxspeed_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="MAX SPEED:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/maxspeed_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/grade_img"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_grade" />
+
+          <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/grade_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="GRADE:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/grade_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/maxelevation_img"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_elevation" />
+
+       <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/maxelevation_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="MAX ELEVATION:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/maxelevation_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/minelevation_img"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_sum_elevation" />
+
+          <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/minelevation_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="4"
+                android:text="MIN ELEVATION:"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/minelevation_txt_value"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:text="5 mph"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

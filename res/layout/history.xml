@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/history_container"
+    android:theme="@android:style/Theme.Holo" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/history_icon"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="#000000"
+            android:contentDescription="res/drawable/ic_history_title.png"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_history_title" />
+
+        <TextView
+            android:id="@+id/history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#FF71B544"
+            android:gravity="center_vertical"
+            android:text="Workout History" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/history_listview"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

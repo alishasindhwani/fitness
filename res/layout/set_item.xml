@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:theme="@android:style/Theme.Holo.Dialog" >
+        
+         <EditText
+            android:id="@+id/reps_ct"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/reps"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="reps"
+            android:textSize="16sp" />
+
+		<EditText
+            android:id="@+id/lbs_ct"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" >
+        </EditText>
+        
+         <TextView
+            android:id="@+id/lbs"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="lbs"
+            android:textSize="16sp" />
+
+    </LinearLayout>
